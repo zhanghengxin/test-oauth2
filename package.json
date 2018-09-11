@@ -1,0 +1,24 @@
+{
+  "name": "complete-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js && node client.js"
+  },
+  "keywords": ["OAuth2", "Node", "Koa", "Koa2"],
+  "author": "waychan23@hotmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.5.0",
+    "koa2-oauth-server": "github:waychan23/koa2-oauth-server",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "simple-memory-storage": "github:waychan23/simple-memory-storage"
+  }
+}
